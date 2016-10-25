@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_hour1"
+            style="@style/HourlyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:tvFontName="Roboto-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/icon_hour1"
+            android:layout_width="@dimen/hourly_icon_size"
+            android:layout_height="@dimen/hourly_icon_size" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_desc1"
+            style="@style/HourlyDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulutlu"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_deg1"
+            style="@style/HourlyDegreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°C"
+            app:tvFontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_hour2"
+            style="@style/HourlyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:tvFontName="Roboto-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/icon_hour2"
+            android:layout_width="@dimen/hourly_icon_size"
+            android:layout_height="@dimen/hourly_icon_size" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_desc2"
+            style="@style/HourlyDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sağanak Yağışlı"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_deg2"
+            style="@style/HourlyDegreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°C"
+            app:tvFontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_hour3"
+            style="@style/HourlyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:tvFontName="Roboto-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/icon_hour3"
+            android:layout_width="@dimen/hourly_icon_size"
+            android:layout_height="@dimen/hourly_icon_size" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_desc3"
+            style="@style/HourlyDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulutlu"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_deg3"
+            style="@style/HourlyDegreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°C"
+            app:tvFontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_hour4"
+            style="@style/HourlyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:tvFontName="Roboto-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/icon_hour4"
+            android:layout_width="@dimen/hourly_icon_size"
+            android:layout_height="@dimen/hourly_icon_size" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_desc4"
+            style="@style/HourlyDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulutlu"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_deg4"
+            style="@style/HourlyDegreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°C"
+            app:tvFontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_hour5"
+            style="@style/HourlyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:tvFontName="Roboto-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/icon_hour5"
+            android:layout_width="@dimen/hourly_icon_size"
+            android:layout_height="@dimen/hourly_icon_size" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_desc5"
+            style="@style/HourlyDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulutlu"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_deg5"
+            style="@style/HourlyDegreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°C"
+            app:tvFontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+</LinearLayout>

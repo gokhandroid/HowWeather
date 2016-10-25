@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">HowWeather</string>
+
+    <string name="base_url">http://api.openweathermap.org/data/2.5/</string>
+    <string name="setting">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="location">Enter city or region</string>
+    <string name="hourly">Hourly</string>
+    <string name="daily">Daily</string>
+    <string name="percentage">%</string>
+    <string name="speed">m/s</string>
+    <string name="selectLang">Select app language</string>
+    <string name="language">Language</string>
+    <string name="selectTemp">Select the temperature unit</string>
+    <string name="temperature">Temperature Unit</string>
+    <string name="locations">Locations</string>
+    <string name="waiting">Please Wait</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="warning">Warning</string>
+    <string name="enableLocation">Location</string>
+    <string name="locationWarning">Locations Settings is set to "Off".\nPlease Enable Location to use this app.</string>
+    <string name="locationSetting">Location Settings</string>
+    <string name="deleteQuestion">Are you sure you want to delete?</string>
+    <string name="addLocationWarning">Please add a city or location</string>
+    <string name="addLocation">Add Location</string>
+    <string name="addCityOrRegion">Add City or Region</string>
+    <string name="humidity">humidity:</string>
+    <string name="min">min.:</string>
+    <string name="max">max.:</string>
+    <string name="wind">wind:</string>
+    <string name="waitingLocation">Getting your position, wait</string>
+    <string name="controlInternetConnection">Please check your internet connection.</string>
+    <string name="close">Close</string>
+
+    <string name="key1">df9a331f0f0e8801a17130730fb7501a</string>
+
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <string-array name="pref_language">
+        <item>TR</item>
+        <item>ENG</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>tr</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="pref_unit">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_unit_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+</resources>

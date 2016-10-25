@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:negativeButtonText="@string/cancel"
+        android:defaultValue="en"
+        android:entries="@array/pref_language"
+        android:entryValues="@array/pref_language_values"
+        android:key="lang"
+        android:summary="@string/selectLang"
+        android:title="@string/language" />
+
+    <ListPreference
+        android:defaultValue="metric"
+        android:negativeButtonText="@string/cancel"
+        android:entries="@array/pref_unit"
+        android:entryValues="@array/pref_unit_values"
+        android:key="unit"
+        android:summary="@string/selectTemp"
+        android:title="@string/temperature" />
+</PreferenceScreen>

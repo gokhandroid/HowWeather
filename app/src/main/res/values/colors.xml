@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0097A7</color>
+    <color name="colorPrimaryDark">#FF0097A7</color>
+    <color name="colorAccent">#FF0097A7</color>
+
+    <color name="toolbar">#1AFFFFFF</color>
+    <color name="bottom_navigation">#1A000000</color>
+
+    <color name="pager_bullet_active">#FFFFFF</color>
+    <color name="pager_bullet_inactive">#787878</color>
+
+</resources>

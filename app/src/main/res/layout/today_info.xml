@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/min"
+                app:tvFontName="Roboto-Medium.ttf" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_min"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28°C"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/min"
+            android:layout_below="@+id/min"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/max"
+                app:tvFontName="Roboto-Medium.ttf" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_max"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38°C"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity"
+                app:tvFontName="Roboto-Medium.ttf" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_humidity"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50%"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/humidity"
+            android:layout_below="@+id/humidity"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wind"
+                app:tvFontName="Roboto-Medium.ttf" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_wind"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14km"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+
+        <!-- <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/humidity"
+             android:layout_below="@+id/humidity"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal">
+
+             <ImageView
+                 android:layout_width="@dimen/today_info_icon_size"
+                 android:layout_height="@dimen/today_info_icon_size"
+                 android:background="@mipmap/meter" />
+
+             <com.gkhnnl.howweather.util.CustomTextView
+                 android:id="@+id/txt_pressure"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 style="@style/TodayInfoText"
+                 android:text="1000"
+                 app:tvFontName="Roboto-Light.ttf" />
+
+             <com.gkhnnl.howweather.util.CustomTextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:includeFontPadding="false"
+                 android:text="hPa"
+                 android:textColor="@android:color/white"
+                 android:textSize="12sp"
+                 app:tvFontName="Roboto-Light.ttf" />
+
+         </LinearLayout>
+ -->
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/today_info_icon_size"
+                android:layout_height="@dimen/today_info_icon_size"
+                android:background="@mipmap/wind" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TodayInfoText"
+                android:text="14km"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wind"
+            android:layout_below="@+id/wind"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/today_info_icon_size"
+                android:layout_height="@dimen/today_info_icon_size"
+                android:background="@mipmap/direction" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22°"
+                style="@style/TodayInfoText"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/sunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/today_info_icon_size"
+                android:layout_height="@dimen/today_info_icon_size"
+                android:background="@drawable/sunrise" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_sunrise"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sunrise"
+            android:layout_below="@+id/sunrise"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/today_info_icon_size"
+                android:layout_height="@dimen/today_info_icon_size"
+                android:background="@drawable/sunset" />
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_sunset"
+                style="@style/TodayInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:15"
+                app:tvFontName="Roboto-Light.ttf" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

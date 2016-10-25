@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gkhnnl.howweather.fragments.WeatherFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon_weather"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:includeFontPadding="false"
+            android:text="Açık Güneşli"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:tvFontName="Roboto-Light.ttf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.gkhnnl.howweather.util.CustomTextView
+                android:id="@+id/txt_degrees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:text="28°C"
+                android:textColor="@android:color/white"
+                android:textSize="80sp"
+                app:tvFontName="Roboto-Thin.ttf" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.gkhnnl.howweather.util.CustomTextView
+        android:id="@+id/txt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:text="İstanbul, Türkiye"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:tvFontName="Roboto-Light.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#0097A7" />
+
+    <include
+        layout="@layout/today_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#0097A7" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:minHeight="30dp"
+        app:tabBackground="@drawable/tab_background"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/white" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

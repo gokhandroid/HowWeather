@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".LocationListActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/add_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:src="@drawable/location" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            style="@style/LocationListText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/addLocation"
+            app:tvFontName="Roboto-Medium.ttf" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/add_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:src="@drawable/city" />
+
+        <com.gkhnnl.howweather.util.CustomTextView
+            style="@style/LocationListText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/addCityOrRegion"
+            app:tvFontName="Roboto-Medium.ttf" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

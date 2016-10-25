@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">HowWeather</string>
+
+    <string name="base_url">http://api.openweathermap.org/data/2.5/</string>
+    <string name="setting">Ayarlar</string>
+    <string name="cancel">İptal</string>
+    <string name="location">Şehir veya bölge adı giriniz</string>
+    <string name="hourly">Saatlik</string>
+    <string name="daily">Günlük</string>
+    <string name="percentage">%</string>
+    <string name="speed">m/s</string>
+    <string name="selectLang">Uygulama dilini seçin</string>
+    <string name="language">Dil</string>
+    <string name="selectTemp">Sıcaklık birimini seçin</string>
+    <string name="temperature">Sıcaklık Birimi</string>
+    <string name="locations">Konumlarım</string>
+    <string name="humidity">nem:</string>
+    <string name="min">min.:</string>
+    <string name="max">max.:</string>
+    <string name="wind">rüzgar:</string>
+    <string name="waiting">Lütfen Bekleyiniz</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="warning">Uyarı</string>
+    <string name="enableLocation">Konum</string>
+    <string name="locationWarning">Konumunuz kapalı durumda. Lütfen konumunuzu açınız.</string>
+    <string name="locationSetting">Konum Ayarları</string>
+    <string name="deleteQuestion">Silmek istediğinize emin misiniz?</string>
+    <string name="addLocationWarning">Lütfen şehir veya konum ekleyin.</string>
+    <string name="addLocation">Konum Ekle</string>
+    <string name="addCityOrRegion">Şehir veya Bölge Ekle</string>
+    <string name="waitingLocation">Konumunuz Alınıyor, Bekleyiniz.</string>
+    <string name="controlInternetConnection">Lütfen internet bağlantınızı kontrol ediniz."</string>
+    <string name="close">Kapat</string>
+
+    <string name="key1">df9a331f0f0e8801a17130730fb7501a</string>
+
+    <string name="monday">Pzt</string>
+    <string name="tuesday">Sal</string>
+    <string name="wednesday">Çrş</string>
+    <string name="thursday">Prş</string>
+    <string name="friday">Cum</string>
+    <string name="saturday">Cmt</string>
+    <string name="sunday">Pzr</string>
+
+    <string-array name="pref_language">
+        <item>TR</item>
+        <item>ENG</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>tr</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="pref_unit">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_unit_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+</resources>
